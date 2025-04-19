@@ -1,0 +1,21 @@
+backend:
+  name: github
+  repo: nuzulul/jekyll-decap-cms-github-pages
+  branch: main
+  site_domain: https://nuzulul.github.io/jekyll-decap-cms-github-pages
+  base_url: https://jekyll-decap-cms-github-pages.netlify.app
+  auth_endpoint: /auth
+media_folder: static/uploads
+public_folder: /uploads
+collections:
+  - name: 'post'
+    label: 'Post'
+    folder: '_posts'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
