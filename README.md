@@ -38,3 +38,8 @@ backend:
 ### 4. Publish
 
 Publish your Decap CMS and open it on your browser, now you should see a Login with Github button
+
+## Alternative without Netlify's Service
+
+- [decap-cms-google-apps-script](https://github.com/nuzulul/decap-cms-google-apps-script) - A Decap CMS Github OAuth Client implementation in Google Apps Script acting as the External OAuth Client allowing Decap CMS without using Netlify's service.
+- [awesome-decap-cms#oauth-clients](https://github.com/nuzulul/awesome-decap-cms#oauth-clients) - Decap CMS external oauth clients list.
