@@ -33,7 +33,8 @@ backend:
   name: github # backend to use
   repo: nuzulul/jekyll-decap-cms-github-pages # your username and repo
   branch: main # branch to use
-  site_domain: jekyll-decap-cms-github-pages.netlify.app # netlify site domain
-  base_url: https://api.netlify.com # required
-  auth_endpoint: /auth # required
+  site_domain: jekyll-decap-cms-github-pages.netlify.app # the netlify site domain above
 ```
+### 4. Publish
+
+Publish your Decap CMS and open it on your browser, now you should see a Login with Github button

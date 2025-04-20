@@ -3,8 +3,6 @@ backend:
   repo: nuzulul/jekyll-decap-cms-github-pages
   branch: main
   site_domain: jekyll-decap-cms-github-pages.netlify.app
-  base_url: https://api.netlify.com
-  auth_endpoint: /auth
 media_folder: static/uploads
 public_folder: /uploads
 collections:
